@@ -1,0 +1,95 @@
+* {box-sizing:border-box;}
+
+header{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	color: #ffffff;
+	font-family: ARIAL BLACK;  
+	background: #009146;
+}
+
+.main_content1{ 
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 20px; font-style: italic; font-weight: 500;
+	border-top:4px #009146 solid;
+	margin-top:50px;
+	padding:15px 0px;
+}
+
+.main_content2{ 
+	width: 80%;
+	margin: 0 auto;
+	font-size: 17px;
+	clear:both;
+	border-top:4px #009146 solid;
+	margin-top:30px;
+	padding:15px 0px;
+}
+
+.img {
+	float: right;
+	padding: 1em 0 1em 0;
+	background-color:#edf0ef;
+}
+
+
+.main_content2 h2 { 
+	text-align: left;
+	font-style: italic;
+	font-size: 26px;
+}
+
+body{
+	background: #edf0ef;
+}
+
+.left_struct{
+	height: 0; 
+}
+
+.education {
+	height: 250px; 
+	width: 40%; 
+	margin: 0px 0px 15px 0px;
+	border: 10px solid transparent;
+	border-image: linear-gradient(to right, transparent 0%, #009146 100%);
+	border-image-slice: 1;
+	background-color:#d4fce8;
+	font-size: 19px;
+}
+
+.experience {
+	height: 150px; 
+	width: 40%; 
+	margin: 0px 0px 15px 0px;
+	border: 10px solid transparent;
+	border-image: linear-gradient(to right, transparent 0%, #009146 100%);
+	border-image-slice: 1;
+	background-color:#d4fce8;
+	font-size: 19px;
+		
+}
+
+.contacts {
+	height: 290px; 
+	width: 40%; 	
+	border: 10px solid transparent;
+	border-image: linear-gradient(to right, transparent 0%, #009146 100%);
+	border-image-slice: 1;
+	font-size: 19px;
+	background-color:#d4fce8;
+}
+
+.skills {
+	height: 720px; 
+	width: 58%; 
+	font-size: 17px;	
+	border: 10px solid transparent;
+	border-image: linear-gradient(to right, transparent 0%, #009146 100%);
+	border-image-slice: 1;
+	background-color:#d4fce8;
+	float: right;	
+}
