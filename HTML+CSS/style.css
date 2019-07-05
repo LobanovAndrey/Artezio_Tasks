@@ -14,6 +14,7 @@ header{
 	margin: 0 auto;
 	text-align: left;
 	font-size: 20px; font-style: italic; font-weight: 500;
+	clear:both;
 	border-top:4px #009146 solid;
 	margin-top:50px;
 	padding:15px 0px;
