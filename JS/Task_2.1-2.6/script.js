@@ -53,7 +53,7 @@ function buttonClick() {
 		} else if (document.getElementById('r3').checked) {	
 			// Task 6
 			var resultDiv = document.getElementById('result');	
-			resultDiv.append("Простые числа в промежутке от X1 до X2 = " + searchPrimes(x1, x2));
+			resultDiv.append("Простые числа в промежутке от X1 до X2 = " + searchPrimes(x1-1, x2));
 			//
 		}
 	}
