@@ -10,6 +10,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
+	perspective: 1000px;
 }
 
 .card {
@@ -19,6 +20,8 @@
 	height: calc(25% - 10px);
 	margin: 5px;
 	transform: scale(1);
+	transform-style: preserve-3d;
+	transition: transform .4s;
 }
 
 .card:active {
@@ -34,7 +37,7 @@ img {
 
 body {
 	height: 100vh;
-	background: #899692;
+	background: #a19f99;
 }
 
 .front-face,
@@ -43,7 +46,16 @@ body {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	padding: 6px;
+	padding: 4px;
 	border-radius: 5px;
-	background: orange;
+	background: #F9C17B;
+	backface-visibility: hidden;
+}
+
+.front-face {
+  transform: rotateY(180deg);
+}
+
+.card.upend {
+  transform: rotateY(180deg);
 }
